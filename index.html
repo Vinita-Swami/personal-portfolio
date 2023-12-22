@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-...your-sha-hash-here..." crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .Header {
+            background-image: url("images/img1.png");
+            background-size: cover;  /* Adjust as needed */
+            background-position: center;  /* Adjust as needed */
+            background-repeat: no-repeat;
+            width: 100%;
+            height: 100vh;
+            background-position: center;
+            background-size: cover;
+            /* Add any other styles you want for the .Header class */
+        }
+    </style>
+
+</head>
+<body style="background-color: rgb(212, 212, 185);">
+    
+    <div class="Header">
+        
+        <div class="container">
+            <nav>
+                <div>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                </div>
+            </nav>
+            <div class="header-text">
+                
+                <p style="font-size: 15px;">  HEY THERE,</p>
+                <h1 >  I'm <span style="color: #fff;">Vinita.</span></h1>
+                <p style="font-size: 18px;">  I am a full stack web designer and developer who is passionate at building things for the web. <br> Welcome to my corner of the internet. I'm glad you're here.</p>
+            </div>
+
+        </div>
+
+    </div>
+    <div>
+
+
+        <!--------------------------About------------------------------->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/IMG-20231110-WA0030.jpg" >
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="subtitle">About Me</h1>
+                        <p> Welcome to my corner of the digital universe! <br>I'm VINITA SWAMI, a dedicated Full Stack Developer and Software Engineer on a mission to transform ideas into seamless, user-centric applications. With a passion for both front-end aesthetics and back-end logic, I bring a holistic approach to software development and I thrive in the dynamic world of coding.
+                            <br>I am always excited about the prospect of collaborating on innovative projects. Whether you're looking for a Full Stack Developer to enhance your team or someone to bring your vision to life, I'm committed to delivering excellence and ready to contribute my skills and passion for software engineering.<br>Feel free to explore my portfolio, and let's discuss how we can create something extraordinary together.</p>
+                        
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>    
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <p>Web Development</p>
+                                <li><span>HTML</span> <br></li>
+                                <li><span>CSS</span><br></li>
+                                <li><span>JAVASCRIPT</span><br></li>
+                            </ul>
+                            <ul>
+                                <p><br>Languages</p>
+                                <li><span>C</span> <br></li>
+                                <li><span>C++</span><br></li>
+                                <li><span>PYTHON</span><br></li>
+                                <li><span>JAVA</span><br></li>
+
+
+                            </ul>
+
+                        </div>
+
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <p>SRM University <br></p>
+                                <li>Pre final year Btech CSE Student<br>Current</li>
+                            </ul>
+                            <ul>
+                                <p><br>AICTE NEAT Internship</p>
+                                <li>Data Analytics Virtual Internship <br> May-July2023</li>
+                                <li>Data Analytics Process Automation Virtual Internship <br>Sept-Nov2023</li>
+                            </ul>
+                            <ul>
+                                <p><br>iHUB DivyaSampark @ IIT Roorkee </p>
+                                <li>Data Science, Al and Machine Learning Internship <br> June-Aug2023</li>
+                            </ul>
+
+                        </div>
+
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <p>SRM University <br></p>
+                                <li>Btech CSE with specialisatiion in IT -Current<br>CGPA-9.05(aggregate upto 4th sem)</li> 
+                            </ul>
+                            <ul>
+                                <p><br>Alphonsa English High School</p>
+                                <li>Higher Secondary school - 2021<br> Grade-87%</li>
+                                <li>Secondary school - 2019<br>Grade-91%</li>
+                            </ul>
+                        
+                        </div>
+                    
+                        </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    
+ <!--------------------------Contact------------------------------->
+
+       <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-square-envelope"></i> vinitaswami5455@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+91 7666887401</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fab fa-facebook"></i></a>
+                        <a href=""><i class="fab fa-twitter"></i></a>
+                        <a href=""><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/vinita-swami-b46151230/"><i class="fab fa-linkedin"></i></a>
+
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit">Submit</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+
+
+        </div>
+        
+
+
+
+
+
+
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+
+    }
+</script>
+
+</body>
+</html>
